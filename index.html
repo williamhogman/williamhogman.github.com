@@ -1,11 +1,98 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
     <head>
         <meta charset="utf-8" />
+        <link rel="dns-prefetch" href="//ajax.googleapis.com" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
         <title>William Högman - whn.se programming, statistics</title>
-        <meta name="description" content="William " />
+
+        <meta name="description" content="My personal webpage with
+        links to all the stuff I'm up to, like python programming, web
+        development with html, statistics, psychology and
+        neuroscience." />
+        <meta name="viewport" content="width=device-width" />
         <link rel="stylesheet" href="css/style.css" />
+        <link href="http://coderwall.com/stylesheets/jquery.coderwall.css" media="all" rel="stylesheet" type="text/css">
+        <script src="js/libs/modernizr-2.5.3.min.js"></script>
     </head>
     <body>
+
+      <header id="mainhead">
+        <div class="wrapper">
+          <hgroup>
+            <h1>William Högman</h1>
+          </hgroup>
+        </div>
+      </header>
+
+      <div role="main" id="maincont">
+
+        <div class="box">
+          <div class="wrapper">
+            <h2>Github repos</h2>
+            <div id="gh-repos">
+              <span>Loading...</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="wrapper">
+            <h2>Get in touch</h2>
+            <p>You can reach me via email, me@whn.se or you can</p>
+            <p>
+              <a href="https://twitter.com/w_hgm"
+                 class="twitter-follow-button"
+                 data-show-count="false"
+                 data-show-screen-name="false"
+                 data-size="small">Follow me on twitter</a>
+              or
+              <iframe src="http://markdotto.github.com/github-buttons/github-btn.html?user=williamhogman&type=follow"
+                      allowtransparency="true" frameborder="0" scrolling="0" width="256px"
+                      height="20px"></iframe>
+            </p>
+
+            <section class="coderwall" data-coderwall-username="williamhogman" data-coderwall-orientation="horizontal"></section>
+
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="wrapper">
+            <h2>Posts</h2>
+            <div id="posts">
+              Loading...
+            </div>
+          </div>
+        </div>
+
+        <div class="clearfix"></div>
+
+      </div>
+
+
+      <footer id="mainfoot">
+        <div class="wrapper">
+          <small>Copyright &copy; 2012 William Högman.
+            <a rel="license"
+               href="http://creativecommons.org/licenses/by-sa/3.0/deed.en_US">
+              <img alt="Creative Commons License" style="border-width:0"
+                   src="http://i.creativecommons.org/l/by-sa/3.0/80x15.png"/>
+            </a> This work is licensed under a
+            <a rel="license"
+               href="http://creativecommons.org/licenses/by-sa/3.0/deed.en_US">Creative
+              Commons Attribution-ShareAlike 3.0 Unported License</a>.
+          </small>
+        </div>
+      </footer>
+      <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+      <script>
+        var _gaq=[['_setAccount','UA-33872327-1'],['_trackPageview']];
+      </script>
+      <script src="/js/script.js"></script>
     </body>
 </html>
