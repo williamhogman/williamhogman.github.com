@@ -20,9 +20,9 @@
       
   $(function() {
     $.ajax(
-      "https://api.github.com/users/williamhogman/repos",{dataType: "json"})
-      .done(function(data){
-        var html = $.map(data,repo_to_html).join("");
+      "https://api.github.com/users/williamhogman/repos?callback=?",{dataType: "jsonp"})
+      .done(function(ret){
+        var html = $.map(ret.data,repo_to_html).join("");
         $("#gh-repos").html(html);
       });
 
