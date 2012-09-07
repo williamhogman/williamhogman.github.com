@@ -19,12 +19,12 @@
         <link href="http://coderwall.com/stylesheets/jquery.coderwall.css" media="all" rel="stylesheet" type="text/css">
         <script src="js/libs/modernizr-2.5.3.min.js"></script>
     </head>
-    <body>
+    <body itemscope itemtype="http://schema.org/Person">>
 
       <header id="mainhead">
         <div class="wrapper">
           <hgroup>
-            <h1>William Högman</h1>
+            <h1 itemprop="name">William Högman</h1>
           </hgroup>
         </div>
       </header>
@@ -43,7 +43,10 @@
         <div class="box">
           <div class="wrapper">
             <h2>Get in touch</h2>
-            <p>You can reach me via email, me@whn.se or you can</p>
+            <p>You can reach me via email, 
+              <a href="mailto:me@whn.se"
+                 itemprop="email">me@whn.se</a>
+              or you can</p>
             <p>
               <a href="https://twitter.com/w_hgm"
                  class="twitter-follow-button"
