@@ -42,8 +42,8 @@ body { margin: 0; font-size: 1em; line-height: 1.4; }
  * Also: hot pink! (or customize the background color to match your design)
  */
 
-::-moz-selection { background: #fe57a1; color: #fff; text-shadow: none; }
-::selection { background: #fe57a1; color: #fff; text-shadow: none; }
+::-moz-selection { background: #57a1fe; color: #fff; text-shadow: none; }
+::selection { background: #57a1fe; color: #fff; text-shadow: none; }
 
 
 /* =============================================================================
@@ -212,15 +212,28 @@ td { vertical-align: top; }
 
 body {
     font-family: 'Source Sans Pro', sans-serif;
-    background: #333;
+    background: #5C543E;
 }
 
 #mainhead, #mainfoot, #maincont {
-    background: #EFEFEF;
+    background: #F7EECB;
+    
+}
+
+#mainhead {
+    border-radius: 5px 5px 0 0;
+}
+
+#mainfoot {
+    border-radius: 0 0 5px 5px;
 }
 
 #maincont .box {
-    background: #EFEFEF;
+    background: #F7EECB;
+}
+
+#maincont .box p {
+    /*emargin: ;*/
 }
 
 #gh-repos a, #posts a {
@@ -431,4 +444,34 @@ h3 {
   @page { margin: 0.5cm; }
   p, h2, h3 { orphans: 3; widows: 3; }
   h2, h3 { page-break-after: avoid; }
+}
+
+
+/** header thingy **/
+
+.hcol1 {
+    background: #fea235;
+}
+
+.hcol2 {
+    background: #FFD24E;
+}
+
+.hcol3 {
+    background: #33AC93;
+}
+
+.hcol4 {
+    background: #309770;
+}
+
+.hcol1, .hcol2, .hcol3, .hcol4 {
+    width: 25%;
+    height: 2.5em;
+    float: left;
+    margin: 0;
+}
+
+#mainhead h1 {
+    margin: 1em 0 0 0;
 }
