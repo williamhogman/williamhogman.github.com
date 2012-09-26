@@ -212,12 +212,11 @@ td { vertical-align: top; }
 
 body {
     font-family: 'Source Sans Pro', sans-serif;
-    background: #5C543E;
+    background: #202020 url(../img/background.png); 
 }
 
 #mainhead, #mainfoot, #maincont {
-    background: #F7EECB;
-    
+   background: #FCF8E9;
 }
 
 #mainhead {
@@ -229,11 +228,10 @@ body {
 }
 
 #maincont .box {
-    background: #F7EECB;
+
 }
 
 #maincont .box p {
-    /*emargin: ;*/
 }
 
 #gh-repos a, #posts a {
@@ -242,6 +240,9 @@ body {
     border-bottom: 1px #222 dotted;
 }
 
+#posts li {
+    list-style: none;
+}
 
 /*
 *
