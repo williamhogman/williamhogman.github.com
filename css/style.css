@@ -253,7 +253,7 @@ body {
 *
 */
 
-#maincont .box {
+#maincont .box, #maincont .fullbox, #maincont .fifty-nomob {
     width: 100%;
     float: left;
 }
@@ -327,7 +327,7 @@ h3 {
     font-size: 1em;
   }
 
-  #maincont .box {
+  #maincont .box, #maincont .fifty-nomob {
     width: 50%;
   }
 }
@@ -387,6 +387,10 @@ h3 {
 
     #maincont .box {
         width: 33.33%;
+    }
+
+    #maincont .fifty-nomob {
+        width: 50%;
     }
 }
 /* @media screen and (min-width: 2080px) */
