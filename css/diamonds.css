@@ -141,7 +141,19 @@ a {
   /* line 78, ../sass/screen.scss */
   .diamonds > li {
     margin-right: 0;
-    width: 160px;
+    width: 100%;
+    display: block;
+  }
+
+  .diamond {
+      width: 100% !important;
+      height: auto !important;
+  }
+
+  .diamond .content {
+      display: block !important;
+      margin: 10% auto;
+      width: 100% !important;
   }
 }
 /* line 88, ../sass/screen.scss */
