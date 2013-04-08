@@ -215,6 +215,15 @@ body {
     background: #202020 url(../img/background.png); 
 }
 
+/* 1.25 dpr */
+@media 
+(-webkit-min-device-pixel-ratio: 1.25), 
+(min-resolution: 120dpi){ 
+    body {
+        background-size: 27px 29px;
+    }
+}
+
 #mainhead, #mainfoot, #maincont {
    background: #FCF8E9;
 }
