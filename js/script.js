@@ -1,7 +1,7 @@
 (function() {
 
   window.WebFontConfig = {
-    google: { families: [ 'Source+Sans+Pro::latin' ] }
+    google: { families: [ 'Open+Sans::latin' ] }
   };
 
   var repo_to_html = function(gh){
