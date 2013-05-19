@@ -2,82 +2,97 @@
 layout: default
 itemtype: http://schema.org/Person
 ---
-<header id="mainhead">
-  <div class="wrapper">
-    <hgroup>
+
+<header id="mainhead" class="container">
+  <div class="row">
+    <hgroup class="span12">
       <h1 itemprop="name">William Rudenmalm Högman</h1>
     </hgroup>
   </div>
-  <div class="hcol1">
-  </div>
-  <div class="hcol2">
-  </div>
-  <div class="hcol3">
-  </div>
-  <div class="hcol4">
-  </div>
 </header>
 
-<div role="main" id="maincont">
-  <div class="box">
-    <div class="wrapper">
-    {% include aboutme.html %}
-    </div>
-  </div>
+<div class="hcol1"></div>
+<div class="hcol2"></div>
+<div class="hcol3"></div>
+<div class="hcol4"></div>
 
-  <div class="box">
-    <div class="wrapper">
-      <h2>Github repos</h2>
-      <div id="gh-repos">
-        <span>Loading...</span>
+<div class="clearfix"></div>
+
+<div id="imageheader">
+  <div class="container">
+    <div class="row">
+      <div class="span4">
+        {% include aboutme.html %}
+        {% include contact.html %}
       </div>
     </div>
   </div>
+</div>
 
-  <div class="box">
-    <div class="wrapper">
-      <h2>Get in touch</h2>
-      <p>You can reach me via email, 
-        <a href="mailto:me@whn.se"
-           itemprop="email">me@whn.se</a>
-        or you can</p>
-      <p>
-        <a href="https://twitter.com/w_hgm"
-           class="twitter-follow-button"
-           data-show-count="false"
-           data-show-screen-name="false"
-           data-size="small">Follow me on twitter</a>
-        or
-        <iframe src="http://ghbtns.com/github-btn.html?user=williamhogman&type=follow"
-                allowtransparency="true" frameborder="0" scrolling="0" width="256px"
-                height="20px"></iframe>
-      </p>
 
-      <section class="coderwall" data-coderwall-username="williamhogman" data-coderwall-orientation="horizontal"></section>
-
-    </div>
+<div class="container">
+  <div class="row">
+    <hgroup class="span12">
+      <h3>I'm working on</h3>
+      <h2>Whatever</h2>
+    </hgroup>
   </div>
 
-  <div class="box">
-    <div class="wrapper">
-      <h2>Posts</h2>
+  <div class="row">
+    <div class="span6">
+      <p class="lead">Lead in text</p>
+    </div>
+
+    <div class="offset2 span4">
+      <img src="//placehold.it/360x360" />
+    </div>
+
+  </div>
+
+  <div class="row">
+    <hgroup><h3>Other projects</h3></hgroup>
+  </div>
+
+  <div class="row">
+    <div class="span4">
+      <h3>Something else</h3>
+      <img src="//placehold.it/360x360" />
+    </div>
+
+    <div class="span4">
+      <h3>Foobar</h3>
+      <img src="//placehold.it/360x360" />
+    </div>
+
+
+    <div class="span4">
+      <h3>Writing</h3>
       <div id="posts">
+        Loading...
+      </div>      
+    </div>
+
+  </div>
+</div>
+
+<div class="container">
+  <div class="row">
+
+    <div class="span6 hidden-phone">
+      <h2>Tweets</h2>
+      <a class="twitter-timeline" href="https://twitter.com/w_hgm"
+         data-chrome="transparent noheader noborders"
+         data-widget-id="321355968355106816">Tweets by @w_hgm</a>
+    </div>
+
+    <div class="span6">
+      <h2>Github repos</h2>
+      <div id="gh-repos">
         Loading...
       </div>
     </div>
+
   </div>
-
-  <div class="box">
-    <div class="wrapper">
-      <h2>Tweets</h2>
-      <a class="twitter-timeline" href="https://twitter.com/w_hgm"
-      data-chrome="transparent noheader noborders"
-      data-widget-id="321355968355106816">Tweets by @w_hgm</a>
-    </div>
-  </div>
-
-  <div class="clearfix"></div>
-
 </div>
 
 {% include footer.html %}
