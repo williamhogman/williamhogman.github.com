@@ -60,7 +60,6 @@ body {
     margin: 2em 0 0 0;
     padding: 2em 0;
     height: 5em;
-    background: black;
     color: #EEE;
     background: #202020 url(../img/background.png); 
 }
@@ -70,5 +69,10 @@ body {
 @media (max-width: 767px) {
   #imageheader {
       background: transparent;
+  }
+
+  #mainfoot {
+      background: transparent;
+      color: #333333;
   }
 }
