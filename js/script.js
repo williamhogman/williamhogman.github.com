@@ -30,7 +30,3 @@
   add_script('//platform.twitter.com/widgets.js');
   add_script("//ajax.googleapis.com/ajax/libs/webfont/1/webfont.js");
 })();
-
-
-
-
