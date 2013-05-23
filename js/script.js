@@ -4,28 +4,7 @@
     google: { families: [ 'Open+Sans::latin' ] }
   };
 
-  var repo_to_html = function(gh){
-    if (gh.fork) {
-      return "";
-    }
-    if (gh.name.indexOf(".github.com") != -1) {
-      return "";
-    }
-    var link = gh.homepage != "" ? gh.homepage : gh.html_url;
-
-    return "<div><a href='"+link+"'>"+
-      gh.name+
-      "</a><p>"+gh.description+"</p>"
-  }
-      
   $(function() {
-    $.ajax(
-      "https://api.github.com/users/williamhogman/repos?callback=?",{dataType: "jsonp"})
-      .done(function(ret){
-        var html = $.map(ret.data,repo_to_html).join("");
-        $("#gh-repos").html(html);
-      });
-
     var tumblr_key = "3tzcDAyoP9zRbi67ddiLWCfbswUjOSu49A8pnLQQWEuQp4eMuL";
     $.ajax(
       "http://api.tumblr.com/v2/blog/blog.whn.se/posts/text",
