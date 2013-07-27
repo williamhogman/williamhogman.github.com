@@ -1,6 +1,5 @@
 body {
     font-family: 'Open Sans', "Helvetica Neue" ,Helvetica,  sans-serif;
-    font-size: 16px;
     text-rendering: optimizeLegibility;
 }
 
@@ -85,10 +84,8 @@ body {
     color: #333333;
 }
 #posts article p {
-
-    font-size: 110%;
-    line-height: 150%;
-
+    line-height: 140%;
+    font-size: 16px;
 }
 
 #posts article {
