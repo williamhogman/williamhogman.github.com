@@ -1,6 +1,9 @@
 (function() {
 
   $(function() {
+    if(location.hostname != "whn.se" || location.pathname != "/"){
+      return;
+    }
     var tumblr_key = "3tzcDAyoP9zRbi67ddiLWCfbswUjOSu49A8pnLQQWEuQp4eMuL";
     $.ajax(
       "http://api.tumblr.com/v2/blog/blog.whn.se/posts/text",
