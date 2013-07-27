@@ -86,6 +86,7 @@ body {
 #posts article p {
     line-height: 140%;
     font-size: 16px;
+    margin: 1em 0;
 }
 
 #posts article {
