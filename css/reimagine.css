@@ -1,5 +1,7 @@
 body {
     font-family: 'Open Sans', "Helvetica Neue" ,Helvetica,  sans-serif;
+    font-size: 16px;
+    text-rendering: optimizeLegibility;
 }
 
 .hcol1 {
@@ -61,7 +63,7 @@ body {
     padding: 2em 0;
     height: 5em;
     color: #EEE;
-    background: #202020 url(../img/background.png); 
+    background: #202020 url(../img/background.png);
 }
 
 
@@ -75,4 +77,28 @@ body {
       background: transparent;
       color: #333333;
   }
+}
+
+/* Blog styling */
+
+#posts article header a {
+    color: #333333;
+}
+#posts article p {
+
+    font-size: 110%;
+    line-height: 150%;
+
+}
+
+#posts article {
+    margin-bottom: 4em;
+}
+
+#posts article header .date {
+    margin-top: 26px;
+}
+
+#posts article header h2 a {
+
 }
