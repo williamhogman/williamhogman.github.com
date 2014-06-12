@@ -1,0 +1,84 @@
+==================================================================
+https://keybase.io/whn
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://whn.se
+  * I am whn (https://keybase.io/whn) on keybase.
+  * I have a public key with fingerprint 012A EB95 5EA3 582E D6F4  4D5C 1973 F3A8 A48D 0AF2
+
+To claim this, I am signing this object:
+
+{
+    "body": {
+        "client": {
+            "name": "keybase.io node.js client",
+            "version": "0.4.7"
+        },
+        "key": {
+            "fingerprint": "012aeb955ea3582ed6f44d5c1973f3a8a48d0af2",
+            "host": "keybase.io",
+            "key_id": "1973F3A8A48D0AF2",
+            "uid": "7d88f725abc3c852e8b62fa44489a700",
+            "username": "whn"
+        },
+        "merkle_root": {
+            "ctime": 1402610488,
+            "hash": 
+"d299f5374a8410e965cf1eaec168e1e5148cdc2c3c47e7b065a4b1abfb809bb1fcee6c2109c90e980cff00dcd861f99335675df516fadfca128ef194e7856a2d",
+            "seqno": 16549
+        },
+        "service": {
+            "hostname": "whn.se",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1402610629,
+    "expire_in": 157680000,
+    "prev": "ee5cd38b592dc0ae7286999f1be3a67fda88a0671fe4b8859b3e2424af394111",
+    "seqno": 3,
+    "tag": "signature"
+}
+
+with the aforementioned key, yielding the PGP signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: GnuPG v2.0.22 (GNU/Linux)
+
+owFVkn1QVFUYxpcVtEjDERBhdNzZykGknXvu57loGY7tKEqKiBM7S8u5957LXj52
+t70LyvAxmKCZmlopYCUjH4qjEh+BAoYxKQoW4lTCaNnIHwaNUEEFUQ3dy9CY969z
+z/m9z/s87zlHFswxGP3C1fHa6kOBY343hwVD4onnbuWZBbeUa47JM4uZCnb59JUL
+ZWFzjDkD5wpIxRbFbXK5JWxJV02zTLQ5B3tVxe3SKMJCWzhzQbSO68Wy4krDXo9X
+0bXMBCARFniGwYhiIIklVqZpiREBz1EyhSCioUQgmdQknW7V90RX84ymQ5G0XZ23
+UrEwlobriVirzmfPHHAShDJHMkgQKREyJIYCS8qIpmnII44gdFDF3tlIO50u3WoW
+9mZkYofX7Z7JK/oU/RTQBMkCgoZQM4NUp8ZLJM/LDMXRCNKAwDzLiDLACIuAhRhg
+BtBQlERSa01zmBMIlkG0AJAgC5DgBQHIIsasSAKCF3mtHBKiLBOEJEqQBTLPUxTD
+cowkM4CVkSSLCJAQy4CnMQcZFpGS5l7Fb7rcmjmWofkC/debo4hYt60P7HEui4o1
+2uN1+9yiO1Pbc/p8nhg9rS/XM8NgwTFb7RAUl3RKu6j/3yTQ0CcnwZJ8tBnv8ihe
+7FB0guFYSGif3gfnaJoYM6JEQYHhSUkkEOZIyPLayICAKcRysoQgRATLARnTAoQM
+L1CYpEkayRRPAwAe56M0nyhNk1SVNBfyZXuxuWC/cam/wc9omBtg1J+qIfDphf+9
+3/Bng6bjGgwPtrbvvHv+Pb7zfrbFBRZbg1pLu7cU7GutnmM8+l3Y4okd47tH9jQE
+r+1KbAhMNqb8FfZBq71hj+fwH+41+wdtQxFSdtSV3vamF++VZ5gGeuLzjyVGFoWC
+k4s2XLNnvRW+r3ElWGgZq7565/fVc5anjkzsaPwornHIKMWn9Bedkpb6b/H5+bKv
+LrzgXVqadKl3qrb5h4vTSfCVpvI9hyNNxds3bRyMmayRV65d1RVrC0h/NOmZf/2z
+28lRRZsvrz2+u/BAlfHz1+t7aruvPYxKTW3KSFc3hw/uHe30OxYTXNdSeHBV3fGi
+58OGpKozHf034NkqU+5WVBxsnw6qS75F1qs3g5fNa/v1batUsrXMPvrhogXzUhOS
+IoaG13xf9sh+Wn4md/tyx4FFTLVh7tR0nn1bSsJeItl2+cqSLZkPK056yoSaOyVH
+bJ++MPrTRMHYq2UD3ziJsOCJB5E56dOHbedPlh5qSUq8eNd56ZeaP1fET/v/XX+8
+6Vzv1+WbKiKtQwm7PNGd74TMT4k7U9rXBps7TkT82LytP6DKap0aOVsSZav81uRU
+XrrX/X7l4CchfV+E9r3BbwjoyOo5FGpat2Jj9+l/8u9/XPlayc9f2orjiuJ/62p/
+uegCTD5Q9m7IepjfMjk6MNIWtMSxriKqvt+ecb288PaRhJ6xO+eKh5elqY1fjT+1
+mq05euNf
+=rXrJ
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/whn
+
+==================================================================
+
