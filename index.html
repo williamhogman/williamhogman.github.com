@@ -1,77 +1,59 @@
 ---
 layout: default
-itemtype: http://schema.org/Person
 ---
+<script type="application/ld+json">
+ {
+     "@context": "http://schema.org",
+     "@type": "Person",
+     "email": "mailto:me@whn.se",
+     "jobTitle": "CTO & Entrepreneur",
+     "givenName": "William",
+     "familyName": "Rudenmalm Högman",
+     "name": "William Rudenmalm Högman",
+     "homeLocation": {
+         "@type": "http://schema.org/Place",
+         "name": "Stockholm, Sweden",
+     }
+     "alumniOf": {
+         "@type": "EducationalOrganization",
+         "name": "Stockholm University",
+         "url": "https://su.se/"
+     },
+     "birthPlace": "Stockholm, Sweden",
+     "birthDate": "1992.09.26",
+     "gender": "http://schema.org/Male",
+     "nationality": {
+         "@type": "Country",
+         "name": "Sweden"
+     }
+     "telephone": "+46702638633",
+     "url": "https:/whn.se",
+     "sameAs" : [
+         "https://www.linkedin.com/in/whnse",
+         "http://twitter.com/w_hgm",
+         "https://plus.google.com/u/0/100430379790375871419",
+         "https://github.com/williamhogman",
+         "https://keybase.io/whn",
+     ],
+     "worksFor": {
+         "@type": "Organization",
+         "name": "Klira"
+     }
+ }
+</script>
 
-<header id="mainhead" class="container">
-  <div class="row">
-    <hgroup class="span12">
-      <h1 itemprop="name">William Rudenmalm Högman</h1>
-    </hgroup>
-  </div>
-</header>
-
-<div class="hcol1"></div>
-<div class="hcol2"></div>
-<div class="hcol3"></div>
-<div class="hcol4"></div>
-
-<div class="clearfix"></div>
-
-<div id="imageheader">
-  <div class="container">
-    <div class="row">
-      <div class="span4">
-        {% include aboutme.html %}
-        {% include contact.html %}
-      </div>
+<div class="Aligner">
+  <div class="Aligner-item Aligner-item--top"></div>
+  <main>
+    <h1>William Rudenmalm Högman</h1>
+    <span>tech entrepreneur &ndash; get in touch</span>
+    <div class="contact-links">
+      <a href="mailto:me@whn.se">me@whn.se</a>
+      <a href="tel:+46702638633">+46702638633</a>
+      <a href="https://twitter.com/w_hgm" rel="me">@w_hgm</a>
+      <a href="http://github.com/williamhogman">github</a>
+      <a href="https://keybase.io/whn">keybase</a>
     </div>
-  </div>
+  </main>
+  <div class="Aligner-item Aligner-item--bottom"></div>
 </div>
-
-
-<div class="container">
-  <div class="row">
-    <hgroup class="span12">
-      <h3>I'm working on</h3>
-      <h2>NodeRunner</h2>
-    </hgroup>
-  </div>
-
-  <div class="row">
-    <div class="span6">
-      {% include project/noderunner.html %}
-    </div>
-
-    <div class="offset2 span4">
-      <img src="/img/noderunner.png" />
-    </div>
-
-  </div>
-
-  <div class="row">
-    <h3>Other projects</h3>
-  </div>
-
-  <div class="row">
-    <div class="span4">
-      {% include project/quickerauth.html %}
-    </div>
-
-    <div class="span4">
-      {% include project/operant.html %}
-    </div>
-
-
-    <div class="span4">
-      <h3>Writing</h3>
-      <div id="posts">
-        Loading...
-      </div>      
-    </div>
-
-  </div>
-</div>
-{% include footer.html %}
-{% include base-scripts.html %}
-<script src="/js/script.js"></script>
