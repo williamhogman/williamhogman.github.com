@@ -8,6 +8,12 @@
    </url>
 
    <url>
+       <loc>http://whn.se/william-rudenmalm</loc>
+       <changefreq>daily</changefreq>
+       <priority>1.0</priority>
+   </url>
+
+   <url>
       <loc>http://blog.whn.se</loc>
       <changefreq>hourly</changefreq>
    </url>

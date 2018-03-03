@@ -76,3 +76,7 @@ main span {
     font-size: 1em;
     font-size: calc(1em + 0.25vw);
 }
+
+p {
+    margin: 0.25em 0;
+}
