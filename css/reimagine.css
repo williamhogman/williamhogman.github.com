@@ -1,22 +1,6 @@
 body {
-    font-family: 'Open Sans', "Helvetica Neue" ,Helvetica,  sans-serif;
+    font-family: 'IBM Plex Mono', "Helvetica Neue" ,Helvetica,  sans-serif;
     text-rendering: optimizeLegibility;
-}
-
-.hcol1 {
-    background: #fea235;
-}
-
-.hcol2 {
-    background: #FFD24E;
-}
-
-.hcol3 {
-    background: #33AC93;
-}
-
-.hcol4 {
-    background: #309770;
 }
 
 /*
