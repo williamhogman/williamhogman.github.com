@@ -3,50 +3,12 @@ body {
     text-rendering: optimizeLegibility;
 }
 
-/*
-.hcol1, .hcol2, .hcol3, .hcol4 {
-    width: 25;%
-    height: 2.5em;
-    float: left;
-    margin: 0;
-}
-
-*/
-
-.hcol1, .hcol2, .hcol3, .hcol4  {
-    float: left;
-    margin: 0;
-    height: 2.5em;
-}
-
-
-.hcol1 {
-    width: 10.5572%;
-}
-
-.hcol2 {
-    width: 17.102664%;
-}
-
-.hcol3 {
-    width: 27.70631568%;
-}
-
-.hcol4 {
-    width: 44.63382032%;
-}
-
-
 #imageheader {
     background: #ddd;
 }
 
 #mainfoot {
-    margin: 2em 0 0 0;
-    padding: 2em 0;
     height: 5em;
-    color: #EEE;
-    background: #202020 url(../img/background.png);
 }
 
 
